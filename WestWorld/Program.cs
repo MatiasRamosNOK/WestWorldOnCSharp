@@ -6,7 +6,8 @@ namespace WestWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Everybody!");
+            Console.WriteLine("Test");
         }
     }
 }
