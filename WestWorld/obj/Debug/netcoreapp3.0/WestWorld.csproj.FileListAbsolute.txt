@@ -1,0 +1,10 @@
+C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.exe
+C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.deps.json
+C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.runtimeconfig.json
+C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.runtimeconfig.dev.json
+C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.dll
+C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.pdb
+C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.AssemblyInfoInputs.cache
+C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.AssemblyInfo.cs
+C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.dll
+C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.pdb
