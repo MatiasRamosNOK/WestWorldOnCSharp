@@ -20,7 +20,7 @@ namespace WestWorld
             }
         }
         
-        public int Felicidad()
+        public virtual int Felicidad()
         {
             return 1; // devuelve por defecto
         }
@@ -40,10 +40,7 @@ namespace WestWorld
             energia /= 2;
         }
 
-        public void ConsecuenciasDeConocerEscenario(Escenario escenario)
-        {
-
-        }
+        public virtual void ConsecuenciasDeConocerEscenario(Escenario escenario) { }
 
         public void InteractuarConMuchos(List<Personaje> personajes)
         {
