@@ -35,7 +35,7 @@ namespace WestWorld
             return Rebeldia() > 10;
         }
 
-        public void Interactuar(Personaje personaje)
+        public virtual void Interactuar(Personaje personaje)
         {
             energia /= 2;
         }
