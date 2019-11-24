@@ -8,3 +8,14 @@ C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0
 C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.AssemblyInfo.cs
 C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.dll
 C:\Users\Matias\source\repos\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.pdb
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.csprojAssemblyReference.cache
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.AssemblyInfoInputs.cache
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.AssemblyInfo.cs
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.dll
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\obj\Debug\netcoreapp3.0\WestWorld.pdb
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.exe
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.deps.json
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.runtimeconfig.json
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.runtimeconfig.dev.json
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.dll
+C:\Users\Adrian\Documents\pdep\Integrador\WestWorldOnCSharp\WestWorld\bin\Debug\netcoreapp3.0\WestWorld.pdb

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matias\\source\\repos\\WestWorldOnCSharp\\WestWorld\\WestWorld.csproj": {}
+    "C:\\Users\\Adrian\\Documents\\pdep\\Integrador\\WestWorldOnCSharp\\WestWorld\\WestWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matias\\source\\repos\\WestWorldOnCSharp\\WestWorld\\WestWorld.csproj": {
+    "C:\\Users\\Adrian\\Documents\\pdep\\Integrador\\WestWorldOnCSharp\\WestWorld\\WestWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matias\\source\\repos\\WestWorldOnCSharp\\WestWorld\\WestWorld.csproj",
+        "projectUniqueName": "C:\\Users\\Adrian\\Documents\\pdep\\Integrador\\WestWorldOnCSharp\\WestWorld\\WestWorld.csproj",
         "projectName": "WestWorld",
-        "projectPath": "C:\\Users\\Matias\\source\\repos\\WestWorldOnCSharp\\WestWorld\\WestWorld.csproj",
-        "packagesPath": "C:\\Users\\Matias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matias\\source\\repos\\WestWorldOnCSharp\\WestWorld\\obj\\",
+        "projectPath": "C:\\Users\\Adrian\\Documents\\pdep\\Integrador\\WestWorldOnCSharp\\WestWorld\\WestWorld.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\Documents\\pdep\\Integrador\\WestWorldOnCSharp\\WestWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Matias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

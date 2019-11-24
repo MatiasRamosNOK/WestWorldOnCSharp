@@ -9,16 +9,22 @@ namespace WestWorld
 {
     public int Extra();
     public void AumentarVisitas();
-        public void Evolucionar();
+        public void Evolucionar(Escenario unEscenario);
 }
     public class Escenario
     {
         public string nombre;
-        public ICategoria categoria;
+        public dynamic categoria;
+
+        public Escenario(string unNombre, dynamic unaCategoria) 
+        {
+            nombre = unNombre;
+            categoria = unaCategoria;
+        }
 
         public int Fama()
         {
-            return 100; + categoria.extra();
+            return 100 + categoria.Extra();
         }
 
         public void AumentarVisitas()
@@ -30,11 +36,26 @@ namespace WestWorld
         {
             categoria.Evolucionar(this);
         }
+
+        public void CambiarCategoria(dynamic unaCategoria)
+        {
+            categoria = unaCategoria;
+        }
+
+        public dynamic Categoria()
+        {
+            return categoria;
+        }
     }
 
     public class BajoCoste : ICategoria
     {
         public string zona;
+
+        public BajoCoste(string unaZona)
+        {
+            zona = unaZona;
+        }
         public int Extra()
         {
             return zona.Length;
@@ -44,7 +65,7 @@ namespace WestWorld
 
         public void Evolucionar(Escenario unEscenario)
         {
-            unEscenario.categoria(new Estandar());
+            unEscenario.CambiarCategoria(new Estandar());
         }
     }
 
@@ -59,13 +80,17 @@ namespace WestWorld
 
         public void Evolucionar(Escenario unEscenario)
         {
-            unEscenario.categoria(new DeLujo());
+            unEscenario.CambiarCategoria(new DeLujo(0));
         }
     }
 
     public class DeLujo : ICategoria
     {
         public int visitas;
+        public DeLujo(int cantidadVisitas)
+        {
+            visitas = cantidadVisitas;
+        }
         public int Extra()
         {
             return visitas;
@@ -78,7 +103,7 @@ namespace WestWorld
 
         public void Evolucionar(Escenario unEscenario)
         {
-            Console.WriteLine("NoPuedeEvolucionarExcepcion: {0}", "DeLujo no puede evolucionar mas");
+            throw new NoPuedeEvolucionarExcepcion("DeLujo no puede evolucionar mas");
         }
     }
 
