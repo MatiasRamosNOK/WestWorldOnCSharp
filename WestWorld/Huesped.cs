@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WestWorld
 {
-    class Huesped : Personaje
+    public class Huesped : Personaje
     {
         public int minutosRestantes;
         public List<Personaje> amigos;

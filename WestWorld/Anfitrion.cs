@@ -36,5 +36,10 @@ namespace WestWorld
             descripcion = unaDescripcion;
             escenario = unEscenario;
         }
+
+        public int EmotividadDeUnRecuerdo()
+        {
+            return descripcion.Length * escenario.Fama();
+        }
     }
 }
