@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WestWorld
 {
-    class Personaje
+    public class Personaje
     {
         public int energia;
 
@@ -20,7 +20,7 @@ namespace WestWorld
             }
         }
         
-        public virtual int Felicidad()
+        public virtual float Felicidad()
         {
             return 1; // devuelve por defecto
         }

@@ -19,7 +19,7 @@ namespace WestWorld
 
         public int FelicidadPersonajes()
         {
-            return personajes.Sum((personaje)=> personaje.Felicidad());
+            return personajes.Sum((personaje)=> (int)personaje.Felicidad());
         }
 
         public void Renovar()

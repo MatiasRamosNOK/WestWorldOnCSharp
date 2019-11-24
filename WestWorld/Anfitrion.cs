@@ -4,12 +4,18 @@ using System.Text;
 
 namespace WestWorld
 {
-    class Anfitrion : Personaje
+    public class Anfitrion : Personaje
     {
-        public int velocidadProcesamiento;
+        public float velocidadProcesamiento;
         List<Recuerdo> recuerdos;
 
-        override public int Felicidad()
+        public Anfitrion(int unaEnergia, float unavelocidadDeProcesamiento, List<Recuerdo> unosRecuerdos)
+        {
+            energia = unaEnergia;
+            velocidadProcesamiento = unavelocidadDeProcesamiento;
+            recuerdos = unosRecuerdos;
+        }
+        override public float Felicidad()
         {
             return energia / velocidadProcesamiento;
         }
@@ -20,7 +26,7 @@ namespace WestWorld
         }
     }
 
-    class Recuerdo
+    public class Recuerdo
     {
         public string descripcion;
         public Escenario escenario;

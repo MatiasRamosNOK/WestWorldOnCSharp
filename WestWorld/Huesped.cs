@@ -10,14 +10,20 @@ namespace WestWorld
         public int minutosRestantes;
         public List<Personaje> amigos;
 
-        public override int Felicidad()
+        public Huesped(int minutos, List<Personaje> unosAmigos)
+        {
+            minutosRestantes = minutos;
+            amigos = unosAmigos;
+        }
+
+        public override float Felicidad()
         {
             return minutosRestantes * this.FelicidadAmigos();
         }
 
         public int FelicidadAmigos()
         {
-            return amigos.Sum((amigo)=>amigo.Felicidad());
+            return amigos.Sum((amigo)=>(int)amigo.Felicidad());
         }
 
         public override void ConsecuenciasDeConocerEscenario(Escenario escenario)
