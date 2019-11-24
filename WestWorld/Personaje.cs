@@ -46,5 +46,12 @@ namespace WestWorld
         {
             personajes.ForEach((personaje) => Interactuar(personaje));
         }
+
+        public void ConocerEscenario(Escenario unEscenario)
+        {
+            energia -= unEscenario.Fama();
+            this.ConsecuenciasDeConocerEscenario(unEscenario);
+            unEscenario.AumentarVisitas();
+        }
     }
 }
