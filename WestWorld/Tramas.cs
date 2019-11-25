@@ -7,19 +7,26 @@ namespace WestWorld
 {
     public class Trama
     {
-        List<Personaje> personajes = new List<Personaje>();
+        List<Personaje> personajes;
         public Escenario escenario;
 
         public Escenario Escenario() { return escenario; }
+
+        public Trama(List<Personaje> unosPersonajes, Escenario unEscenario)
+        {
+            personajes = unosPersonajes;
+            escenario = unEscenario;
+        }
         
         public dynamic Personajes()
         {
             return personajes;
         }
 
-        public int FelicidadPersonajes()
+        public Personaje PersonajeMasFeliz()
         {
-            return personajes.Sum((personaje)=> (int)personaje.Felicidad());
+            var maximaFelicidad = personajes.Max((personaje)=> (int)personaje.Felicidad());
+            return personajes.OrderByDescending((personaje) => personaje.Felicidad()).First();
         }
 
         public void Renovar()
@@ -42,6 +49,11 @@ namespace WestWorld
         public void CruzarPersonajes(dynamic unosPersonajes)
         {
             personajes.ForEach((personaje) => personaje.InteractuarConMuchos(unosPersonajes));
+        }
+
+        public float ComplejidadDelEscenario()
+        {
+            return escenario.Fama() / PersonajeMasFeliz().Felicidad();
         }
     }
 }
